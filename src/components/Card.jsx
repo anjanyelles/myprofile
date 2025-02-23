@@ -19,7 +19,7 @@ const Card = () => {
       }}
       class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
     >
-      <a href="hello">
+  <a href="https://lltoverseas.com">
         <img
           class="rounded-t-lg w-full"
           src={LLT}
@@ -72,7 +72,7 @@ const Card = () => {
         />
       </a>
       <div class="p-5">
-        <a href="helo">
+        <a       href="https://www.dishha.com">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           Disha IT Consultant
           </h5>
@@ -117,7 +117,7 @@ const Card = () => {
         />
       </a>
       <div class="p-5">
-        <a href="helo">
+        <a href="https://www.askoxy.ai">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           AskOxy.ai
           </h5>
@@ -162,7 +162,7 @@ const Card = () => {
         />
       </a>
       <div class="p-5">
-        <a href="helo">
+        <a href="https://oxybricks.world">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           OxyBricks.world
           </h5>
@@ -200,7 +200,7 @@ const Card = () => {
       }}
       class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
     >
-      <a href="hello">
+      <a href="https://oxyloans.com">
         <img
           class="rounded-t-lg w-full"
           src={oxy}
@@ -253,7 +253,7 @@ const Card = () => {
         />
       </a>
       <div class="p-5">
-        <a href="helo">
+        <a href="http://freeads.ai">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               FreeAds.ai
           </h5>

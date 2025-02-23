@@ -30,7 +30,7 @@ const About = () => {
                   : "mt-4 text-xl text-justify text-white"
               }
             >
-   I am a freelance developer with expertise in React, Node.js, and mobile app development. Over the past three years, I have successfully built and deployed multiple web and mobile applications, delivering dynamic, scalable, and user-focused solutions to clients.
+I am a full stack developer with expertise in React, Node.js, and mobile app development. Over the past three years, I have successfully built and deployed multiple web and mobile applications, delivering dynamic, scalable, and user-focused solutions to clients.
             </p>
           </motion.div>
           <motion.div
