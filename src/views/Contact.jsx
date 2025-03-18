@@ -93,6 +93,8 @@ const Contact = () => {
             <h1 className="text-3xl font-bold">Email</h1>
             <a className="mb-12 mt-4 font-semibold text-blue-700 uppercase">
               anjanyelles@gmail.com
+              <br></br>
+              8790439333
             </a>
             <h1 className="text-3xl font-bold">Address</h1>
             <p className="mt-4 mb-12 font-semibold text-blue-700 uppercase">

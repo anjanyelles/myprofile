@@ -6,10 +6,105 @@ import oxy from  '../assets/oxy.png'
 import oxy1  from '../assets/Oxybricks.png';
 import Free  from '../assets/Free.png';
 import LLT  from '../assets/LLT.png';
+import Bdetween  from '../assets/between.png';
+import Suprnya  from '../assets/Suprnya.png';
+
 
 const Card = () => {
   return (
     <>
+
+<motion.div
+      initial={"hidden"}
+      whileInView={"visible"}
+      variants={{
+        visible: { opacity: 1 },
+        hidden: { opacity: 0 },
+      }}
+      class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
+    >
+  <a href="https://vfxsite-i51l.vercel.app/index.html">
+        <img
+          class="rounded-t-lg w-full"
+          src={Bdetween}
+          alt=""
+        />
+      </a>
+      <div class="p-5">
+        <a href="helo">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          BETWEENFX
+          </h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+        At BetweenFX Studio, we bring imagination to life through stunning visual effects and immersive digital Industry. Our team of passionate creatives and skilled technologists collaborates to craft breathtaking visuals for films, games, advertisements, and more.
+        </p>
+        <a
+          href="https://vfxsite-i51l.vercel.app/index.html"
+          class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
+        >
+          Read more
+          <svg
+            class="ml-2 -mr-1 w-4 h-4"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </a>
+      </div>
+    </motion.div>
+    <motion.div
+      initial={"hidden"}
+      whileInView={"visible"}
+      variants={{
+        visible: { opacity: 1 },
+        hidden: { opacity: 0 },
+      }}
+      class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
+    >
+  <a href="https://supranya-green-power-services-yulb.vercel.app">
+        <img
+          class="rounded-t-lg w-full"
+          src={Suprnya}
+          alt=""
+        />
+      </a>
+      <div class="p-5">
+        <a href="helo">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          Supranya
+          </h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+        We provide complete EV solutions, including reliable charging infrastructure and repair services. From domestic chargers for brands like BMW and Audi to DC super-fast chargers for highways, we’re making EV adoption easier and driving the shift to a cleaner energy future.
+        </p>
+        <a
+          href="https://supranya-green-power-services-yulb.vercel.app"
+          class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
+        >
+          Read more
+          <svg
+            class="ml-2 -mr-1 w-4 h-4"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </a>
+      </div>
+    </motion.div>
+
     <motion.div
       initial={"hidden"}
       whileInView={"visible"}
@@ -112,7 +207,7 @@ const Card = () => {
       <a href="hello">
         <img
           class="rounded-t-lg w-full"
-          src={disha}
+          src={ask}
           alt=""
         />
       </a>
